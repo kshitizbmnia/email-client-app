@@ -1,0 +1,147 @@
+.container {
+  display: flex;
+  height: 100vh;
+  background-color: #F4F5F9;
+  font-family: sans-serif;
+  color: #636363;
+}
+
+.email-list {
+  flex: 4;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.email-body {
+  flex: 8;
+  background-color: #ffffff;
+  padding: 20px;
+  overflow-y: auto;
+  border: 1px solid #CFD2DC;
+  border-radius: 8px;
+  margin: 8px;
+  height: 85vh;
+  margin-top: 62px;
+}
+
+.email-content {
+  padding-left: 100px;
+}
+
+.email-item {
+  padding: 16px;
+  border: 1px solid #CFD2DC;
+  transition: border-color 0.2s;
+  border-radius: 8px;
+  margin: 24px 8px;
+  cursor: pointer;
+  background-color: #fff;
+}
+
+.email-item.selected {
+  border-color: #E54065;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+}
+
+.favoriteLabel {
+  margin-left: 40px;
+  color: #E54065;
+}
+
+.read {
+  background-color: #F2F2F2;
+}
+
+.favorite-button {
+  background-color: #E54065;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 20px;
+  cursor: pointer;
+  float: right;
+}
+
+.favorite-button:hover {
+  background-color: #D6294E;
+}
+
+.email-subject {
+  font-size: 32px;
+}
+
+/* CSS for the email item container */
+.email-item {
+  display: flex;
+  padding: 10px;
+  cursor: pointer;
+}
+
+/* CSS for the avatar */
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  margin-left: 20px;
+  margin-right: 30px;
+  background-color: #D6294E;
+  float: left;
+}
+
+.sender>span,
+.subject>span {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+
+/* CSS for the description */
+.description {
+  margin-top: 5px;
+  color: #777;
+  margin-bottom: 8px;
+}
+
+/* CSS for the date-time */
+.date-time {
+  margin-top: 5px;
+}
+
+.email-date-time {
+  margin: 24px 100px;
+}
+
+
+.filter-options {
+  display: flex;
+  justify-content: space-around;
+  font-size: 18px;
+  align-items: center;
+  width: 400px;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  font-size: 18px;
+}
+
+.button:hover {
+  background-color: #e0e0e0;
+  border-radius: 20px;
+}
+
+.buttonSelected {
+  border: 1px solid #ccc;
+  border-radius: 20px;
+}
