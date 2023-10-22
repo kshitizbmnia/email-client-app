@@ -1,7 +1,7 @@
 # email-client-app
 Email inbox layout with read, unread and favourite filter functionality.
 # Steps
-ordered list
+
 1. unzip
 2. cd email-client-app
 3. npm install
